@@ -1,0 +1,58 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage{array}
+\usepackage[top=1in, bottom=1in, left=0.7in, right=0.7in]{geometry}
+
+
+
+\begin{document}
+
+\setcounter{page}{2}
+
+\begin{tabular}{| m{12em} | m{28em} |} 
+
+\hline
+& This can be used to 
+control an autonomous humanoid robot. The Movement state of the robots are purely depends on either Process-directed(continous 
+process) or target-directed strategy(exchanging target process).[2] \\
+
+& \\
+& II.System Construction \\
+& The Authors successfully develop an EEG-based, hybrid BMI with a highly modular structure 
+to account for the needs of brain-robot interfaces, in particular to allow for easily 
+interfacing to different robots. They used Honda's Humanoid Research Robot. Their BMI system exploits two distinct cortical activity patterns to increase the number 
+of controlled dimensions.Raw data stream are constantly scanned for both patterns.\\
+& \\
+& III.Experimentation and Result \\
+& All experiment was conducted with the real, physical robot. The authors used realistic-
+type task. They created a simplified "store" in lab which each "store" have 3 shelves, 
+arranged at the three sides of a rectangular area. Ten basket in different colors are 
+placed on these shelfs. The robot are saved with an image of how the positioning of the 
+shelves. The BMI user need to collect five out of ten baskets by navigating the robot 
+close to that item. The location are fixed equally to each of the subject. 
+There are only four directions that can be used and navigated for the robot which is 
+forward, backward and sidesteps left or right side.  There are seven participants involved in this 
+experiment and they need to do six times of valid sessions to get six data sets.  Once a robot finish "step" or "turn", the 
+system will request new state decision from the data processing module. The robot will 
+only leave BMI zone if they are in the vicinity of basket and calling for the movement of 
+"grasping". \\
+
+& \\
+& After everything is recorded, the author notice of slight EEG error in hybrid BMI, which 
+is error detection rate of 0.23; because the EEG in BMI are not perfect. Some participants 
+are having difficulty with performing ERD in the complex setting. This assumptions are 
+made because of error-state detection rates which is 0.3; for the ERD part alone, but the 
+P300 are not affected by this.  \\
+& \\
+& IV. Conclusion\\
+& The Authors implement this advanced yet sophisticated system approach is to help 
+handicapped people with robots as their intermediary. . Empirical study was used together with HHRR in the robotics lab where they employed and 
+every-day task like shopping and related to test the functionality of the systems.\\
+
+& Out of all participants, only one successfully used the switching of P300 and ERD 
+naturally. \\
+
+\hline
+
+\end{tabular}
+
+\end{document}
