@@ -1,0 +1,66 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage{array}
+\usepackage[top=1in, bottom=1in, left=0.7in, right=0.7in]{geometry}
+
+
+
+\begin{document}
+
+
+\setcounter{page}{1}
+
+\begin{tabular}{| m{12em} | m{28em} |} 
+
+\hline
+
+Paper Title & A hybrid brain interface for a humanoid robot assistant \\
+\hline
+
+Author(s) & Andrea Finke, Andreas Knoblauch, Hendrik Koesling and Helge Ritter \\
+\hline
+
+Abstract/Summary & The representation of relations between handicapped people and robots. How does a robot can help a person which is naturally or by accident type of handicapp. From creation of interface to the experimentation period, this paper will give explanation on how does this relations work. By using the combination of joint movement such as turning, stepping, moving and grasping; with ERD system plus P300 system, the boundary between normal person and handicapped person are shorten. \\
+\hline
+
+Problem Solved 
+& Experimentation, Creation and Testing of interface so that \\ 
+& semi-autonomous robotic personal assistant can help handicapped people. \\
+\hline
+
+Claimed Contributions &
+The Authors claimed they succesfully implement their ideas in relations with their robots. The total amount of tested actions compare with their minimal are satisfying. According to their report too, the total of error detetion rates are only 0.23 or 23percent. Considering the complexity of the robots and human settings. The experiment was considered a success.  \\
+\hline
+
+Related work & 
+Hybrid Brain Interface for a humanoid robot assistant. The research article was elaborated 
+and comprised of 6 subtopics which consist from the introduction of handicapped problem to 
+the system explanations, testing and experiments, results feedback and conclusion. Which 
+will be further explain in 4 category which is Introduction, System Construction, 
+Experimentation and Result, and Conclusion. \\
+& \\
+& I.Introduction\\
+& The main key of problem that was told inside the articles is about people with motor 
+control defcits. These people need daily assistance to complete their daily activity. The 
+assistance needed are vary depending on their own type of impairment, such as utilities to 
+help speech communication or a wheelchair for area mobility. The solutions ? By using 
+robots. Robots are highly valuable and rapidly growing in current world technology. Robots 
+are basically the mirror of humans; with fully autonomous system. But Humans prefer that 
+robots are not retain fully like humans and have certain degree of optional need to be 
+controlled over the tehnical system. [1] One or more inputs modalities are needed. This 
+automatically increase the difficulty of impairment patient because approximately all 
+possible input channels require some basic motor action (eg:- talking, inputs). The 
+authors propose of using a purely cortical signals - which is recorded, translated and 
+processed by an EEG-based Brain Machine interface (BMI) that can provides input channel 
+independently by depending on the type of a person motor impairment. 
+\\
+
+
+
+\hline
+
+
+
+\end{tabular}
+
+
+\end{document}
