@@ -1,0 +1,52 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage{array}
+\usepackage[top=1in, bottom=1in, left=0.7in, right=0.7in]{geometry}
+\usepackage{graphicx}
+
+
+\begin{document}
+
+\setcounter{page}{3}
+
+\begin{tabular}{| m{12em} | m{26em} |} 
+
+\hline
+
+
+Methodology & 
+The method used is Empirical. It is proper to use Empirical rather than Theoretical is because handicapped people are physically disable. The statistical data can be proved by the multiple experiment which the the Author had done. \\
+& \\
+& \includegraphics[scale=1]{image1.png} \\
+& \includegraphics[scale=1]{image2.png}\\
+
+\hline
+
+Conclusions & 
+The research paper has significantly helped the progress of helping handicapped people with the relation of robots. By using advance technology combination like BMI and HHRR. It started from identification of problems that might be faced by handicapped people. From there they create a system or configuration that can satisfy the needs of motor deficit people and multiple experimentation in a required daily activity.   \\
+
+\hline
+
+What did you learn &
+What I learn is a lot, there are many calculations and logics \\
+(algorithms/experiments & involve while doing this experiments. The Authors test \\
+details)? & their experiment by doing Empirical Method. By using a  \\
+& live repetition experiment and multiple of test period, They actually come out with satisfying results. \\
+Possible extension/Future & The experiment and project have a very bright future. Because humans will always have disability or been  \\
+work & handicapped whether naturally or by accidents. \\
+
+\hline
+
+References & [1] K. Dautenhahn, S. Woods, C. Kaouri, Walters, K. M.L., K.L., and
+I. Werry, “What is a robot companion - friend, assistant or butler,” in
+IEEE/RSJ Int Conf on Intelligent Robots and Systems (IROS 2005),
+2005, pp. 1192–1197. \\
+&\\ 
+& [2] J. R. Wolpaw, “Brain-computer interfaces as new brain output pathways,”
+J Physiol, vol. 579, no. 3, pp. 613–619, March 2007. \\
+&\\
+
+
+\hline
+
+\end{tabular}
+\end{document}
