@@ -1,1 +1,128 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage{array}
+\usepackage[top=1in, bottom=1in, left=0.7in, right=0.7in]{geometry}
 
+\begin{document}
+\setcounter{page}{1}
+\begin{tabular}{| m{12em} | m{28em} |} 
+
+\hline
+
+Paper Title & A hybrid brain interface for a humanoid robot assistant \\
+\hline
+
+Author(s) & Andrea Finke, Andreas Knoblauch, Hendrik Koesling and Helge Ritter \\
+\hline
+
+Abstract/Summary & The representation of relations between handicapped people and robots. How does a robot can help a person which is naturally or by accident type of handicapp. From creation of interface to the experimentation period, this paper will give explanation on how does this relations work. By using the combination of joint movement such as turning, stepping, moving and grasping; with ERD system plus P300 system, the boundary between normal person and handicapped person are shorten. \\
+\hline
+
+Problem Solved 
+& Experimentation, Creation and Testing of interface so that \\ 
+& semi-autonomous robotic personal assistant can help handicapped people. \\
+\hline
+
+Claimed Contributions &
+The Authors claimed they succesfully implement their ideas in relations with their robots. The total amount of tested actions compare with their minimal are satisfying. According to their report too, the total of error detetion rates are only 0.23 or 23percent. Considering the complexity of the robots and human settings. The experiment was considered a success.  \\
+\hline
+
+Related work & 
+Hybrid Brain Interface for a humanoid robot assistant. The research article was elaborated 
+and comprised of 6 subtopics which consist from the introduction of handicapped problem to 
+the system explanations, testing and experiments, results feedback and conclusion. Which 
+will be further explain in 4 category which is Introduction, System Construction, 
+Experimentation and Result, and Conclusion. \\
+& \\
+& I.Introduction\\
+& The main key of problem that was told inside the articles is about people with motor 
+control defcits. These people need daily assistance to complete their daily activity. The 
+assistance needed are vary depending on their own type of impairment, such as utilities to 
+help speech communication or a wheelchair for area mobility. The solutions ? By using 
+robots. Robots are highly valuable and rapidly growing in current world technology. Robots 
+are basically the mirror of humans; with fully autonomous system. But Humans prefer that 
+robots are not retain fully like humans and have certain degree of optional need to be 
+controlled over the tehnical system. [1] One or more inputs modalities are needed. This 
+automatically increase the difficulty of impairment patient because approximately all 
+possible input channels require some basic motor action (eg:- talking, inputs). The 
+authors propose of using a purely cortical signals - which is recorded, translated and 
+processed by an EEG-based Brain Machine interface (BMI) that can provides input channel 
+independently by depending on the type of a person motor impairment. 
+\\
+
+\hline
+& This can be used to 
+control an autonomous humanoid robot. The Movement state of the robots are purely depends on either Process-directed(continous 
+process) or target-directed strategy(exchanging target process).[2] \\
+
+& \\
+& II.System Construction \\
+& The Authors successfully develop an EEG-based, hybrid BMI with a highly modular structure 
+to account for the needs of brain-robot interfaces, in particular to allow for easily 
+interfacing to different robots. They used Honda's Humanoid Research Robot. Their BMI system exploits two distinct cortical activity patterns to increase the number 
+of controlled dimensions.Raw data stream are constantly scanned for both patterns.\\
+& \\
+& III.Experimentation and Result \\
+& All experiment was conducted with the real, physical robot. The authors used realistic-
+type task. They created a simplified "store" in lab which each "store" have 3 shelves, 
+arranged at the three sides of a rectangular area. Ten basket in different colors are 
+placed on these shelfs. The robot are saved with an image of how the positioning of the 
+shelves. The BMI user need to collect five out of ten baskets by navigating the robot 
+close to that item. The location are fixed equally to each of the subject. 
+There are only four directions that can be used and navigated for the robot which is 
+forward, backward and sidesteps left or right side.  There are seven participants involved in this 
+experiment and they need to do six times of valid sessions to get six data sets.  Once a robot finish "step" or "turn", the 
+system will request new state decision from the data processing module. The robot will 
+only leave BMI zone if they are in the vicinity of basket and calling for the movement of 
+"grasping". \\
+
+& \\
+& After everything is recorded, the author notice of slight EEG error in hybrid BMI, which 
+is error detection rate of 0.23; because the EEG in BMI are not perfect. Some participants 
+are having difficulty with performing ERD in the complex setting. This assumptions are 
+made because of error-state detection rates which is 0.3; for the ERD part alone, but the 
+P300 are not affected by this.  \\
+& \\
+& IV. Conclusion\\
+& The Authors implement this advanced yet sophisticated system approach is to help 
+handicapped people with robots as their intermediary. . Empirical study was used together with HHRR in the robotics lab where they employed and 
+every-day task like shopping and related to test the functionality of the systems.\\
+
+& Out of all participants, only one successfully used the switching of P300 and ERD 
+naturally. \\
+\hline
+
+Methodology & 
+The method used is Empirical. It is proper to use Empirical rather than Theoretical is because handicapped people are physically disable. The statistical data can be proved by the multiple experiment which the the Author had done. \\
+& \\
+& \includegraphics[scale=1]{image1.png} \\
+& \includegraphics[scale=1]{image2.png}\\
+
+\hline
+
+Conclusions & 
+The research paper has significantly helped the progress of helping handicapped people with the relation of robots. By using advance technology combination like BMI and HHRR. It started from identification of problems that might be faced by handicapped people. From there they create a system or configuration that can satisfy the needs of motor deficit people and multiple experimentation in a required daily activity.   \\
+
+\hline
+
+What did you learn &
+What I learn is a lot, there are many calculations and logics \\
+(algorithms/experiments & involve while doing this experiments. The Authors test \\
+details)? & their experiment by doing Empirical Method. By using a  \\
+& live repetition experiment and multiple of test period, They actually come out with satisfying results. \\
+Possible extension/Future & The experiment and project have a very bright future. Because humans will always have disability or been  \\
+work & handicapped whether naturally or by accidents. \\
+
+\hline
+
+References & [1] K. Dautenhahn, S. Woods, C. Kaouri, Walters, K. M.L., K.L., and
+I. Werry, “What is a robot companion - friend, assistant or butler,” in
+IEEE/RSJ Int Conf on Intelligent Robots and Systems (IROS 2005),
+2005, pp. 1192–1197. \\
+&\\ 
+& [2] J. R. Wolpaw, “Brain-computer interfaces as new brain output pathways,”
+J Physiol, vol. 579, no. 3, pp. 613–619, March 2007. \\
+&\\
+
+\hline
+\end{tabular}
+\end{document}
